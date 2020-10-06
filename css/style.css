@@ -1,0 +1,218 @@
+body {
+    background-color: darkblue;
+}
+#plyta{
+    background-image: url("../img/pudingpłyta.png");
+    background-size: 1000px 1000px;
+    width: 1000px;
+    height: 1000px;
+    transform: rotate3d(2, -1, -1, -01turn);
+}
+
+#cpu{
+    width: 40px;
+    height: 40px;
+    background-image: url("../img/kolo.svg");
+    position: absolute;
+    top:300px;
+    left:490px;
+}
+#ram{
+    width: 40px;
+    height: 40px;
+    background-image: url("../img/kolo.svg");
+    position: absolute;
+    top:300px;
+    left:750px;
+
+}
+#pci{
+    width: 40px;
+    height: 40px;
+    background-image: url("../img/kolo.svg");
+    position: absolute;
+    top:850px;
+    left:200px;
+
+}
+#m2{
+    width: 40px;
+    height: 40px;
+    background-image: url("../img/kolo.svg");
+    position: absolute;
+    top:850px;
+    left:500px;
+
+}
+#sata{    width: 40px;
+    height: 40px;
+    background-image: url("../img/kolo.svg");
+    position: absolute;
+    top:745px;
+    left:900px;
+
+}
+#chipset{
+width: 40px;
+height: 40px;
+background-image: url("../img/kolo.svg");
+position: absolute;
+top:745px;
+left:655px;
+
+}
+#zasilanie{
+    width: 40px;
+    height: 40px;
+    background-image: url("../img/kolo.svg");
+    position: absolute;
+    top:300px;
+    left:900px;
+
+}
+#express{
+    width: 40px;
+    height: 40px;
+    background-image: url("../img/kolo.svg");
+    position: absolute;
+    top:790px;
+    left:300px;
+
+}
+#panel{
+width: 40px;
+height: 40px;
+background-image: url("../img/kolo.svg");
+position: absolute;
+top:300px;
+left:20px;
+}
+#bios{
+    width: 40px;
+    height: 40px;
+    background-image: url("../img/kolo.svg");
+    position: absolute;
+    top:650px;
+    left:490px;
+}
+/* Tooltip text */
+#cpu .tooltiptext,
+#ram .tooltiptext,
+#pci .tooltiptext,
+#m2 .tooltiptext,
+#sata .tooltiptext,
+#chipset .tooltiptext,
+#zasilanie .tooltiptext,
+#express .tooltiptext,
+#panel .tooltiptext,
+#bios .tooltiptext{
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+#cpu:hover .tooltiptext,
+#ram:hover .tooltiptext,
+#pci:hover .tooltiptext,
+#m2:hover .tooltiptext,
+#sata:hover .tooltiptext,
+#chipset:hover .tooltiptext,
+#zasilanie:hover .tooltiptext,
+#express:hover .tooltiptext,
+#panel:hover .tooltiptext,
+#bios:hover .tooltiptext{
+    visibility: visible;
+
+}
+#mainboadMain{
+    width: 100%;
+    display: flex;
+}
+#mainboardPhoto{
+    width: 50%;
+}
+#mainboardLegend{
+    width: 50%;
+}
+.hide{
+    display: none;
+}
+#mainboard:hover{
+    animation-mane: mainboard;
+    animation-duration: 1s;
+    animation-interation-count: 1;
+}
+@keyframes mainboard {
+    0%{position: relative;top:0}
+    50%{position: relative;top: 30px}
+    100%{position: relative;top:0}
+}
+#cpuInfo .describe,
+#ramInfo .describe,
+#pciInfo .describe,
+#m2Info .describe,
+#sataInfo .describe,
+#chipsetInfo .describe,
+#zasilanieInfo .describe,
+#panelInfo .describe,
+#biosInfo .describe,
+#expressInfo .describe
+{
+    background-image: url("../img/puding.JPG");
+    background-position: center;
+    padding: 10px;
+    width: 80%;
+    height: 400px;
+    color: white;
+    text-shadow: black 10px 10px 10px;
+    font-size: 1.2em;
+    z-index: -120;
+    border-radius: 40px;
+    border: 3px solid white;
+    box-shadow: rgba(0,0,0,0.5) 10px 10px 5px;
+}
+#ramInfo .describe
+{
+    background-image: url("../img/rampudi.JPG");
+}
+#pciInfo .describe
+{
+    background-image: url("../img/exp.JPG");
+}
+#m2Info .describe
+{
+    background-image: url("../img/m2.JPG");
+}
+#sataInfo .describe
+{
+    background-image: url("../img/sata.JPG");
+}
+#chipsetInfo .describe
+{
+    background-image: url("../img/chipset.JPG");
+}
+#zasilanieInfo .describe
+{
+    background-image: url("../img/zasilanie.JPG");
+}
+#panelInfo .describe
+{
+    background-image: url("../img/panelexd.JPG");
+}
+#biosInfo .describe
+{
+    background-image: url("../img/bat.JPG");
+}
+#expressInfo .describe
+{
+    background-image: url("../img/pcipung.JPG");
+}
