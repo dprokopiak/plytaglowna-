@@ -8,7 +8,7 @@
     -AUDIO BOOST 4 with NAHIMIC 3: Reward your ears with studio grade sound quality for the most immersive gaming experience
     -Pre-installed I/O Shielding: Better EMI protection and more convenience for installation
 #Zdięcie płyty  
-![](file:///home/dprokopiak/Pulpit/puding.JPG)
+![](https://netland24.pl/photos/5bc3ae1259d85.JPG)
 #MSI MPG Z390 Gaming PRO Carbon - dlaczego warto zwrócić na nią uwagę?
 
     -obsługa procesorów Intel Core 8-mej i 9-tej generacji
